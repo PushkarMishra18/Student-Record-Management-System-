@@ -1,0 +1,12 @@
+This project manages student records using Java and OOP concepts.
+The Person class is abstract and acts as the base class.
+The Student class extends Person and stores roll number, course and marks.
+We use interface RecordActions so that StudentManager follows a fixed set of actions.
+The StudentManager class keeps all records in an ArrayList.
+It allows adding, viewing, searching, deleting and sorting students by marks.
+Data is also saved permanently in a file called students.txt.
+When the project loads or saves data, a Loader thread runs to show a loading effect.
+Sorting is done using Java's Comparator (lambda function).
+Iterator is used to delete records safely.
+The project is divided into packages so code looks organized and easy to maintain.
+The Main class only handles menu and user input, and the manager does all processing.
